@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/**** Manrope 폰트 ****/
+@font-face {
+    font-family:'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../assets/font/Manrope-Medium.ttf"); 
+}
+
+@font-face {
+    font-family:'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../assets/font/Manrope-Bold.ttf"); 
+}
