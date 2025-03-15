@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body {padding-top:50px;}
+
+h1 {font-size:34px; text-align:center;}
+
+/* 배경 박스 */
+.random-bgbox {display:flex; max-width:800px; height:340px; margin:50px auto; border-radius:20px; color:#fff; text-align:center; background:#000; align-items:center; flex-direction:column; justify-content:center;}
+.random-bgbox h2 {font-size:30px;}
+.random-bgbox p {margin-top:20px; font-size:14px;}
+
+/* 배경 바뀌는 버튼 */
+#random-btn {display:block; width:200px; height:50px; margin:0 auto; border-radius:8px; border:1px solid #eee; color:#777; font-size:15px; transition:all .3s ease;}
+#random-btn:hover {background-color:#000; color:#fff;}

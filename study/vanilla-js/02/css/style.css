@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+
+body {padding-top:50px;}
+
+h1 {font-size:34px; text-align:center;}
+
+/* 숫자 박스 */
+#random-number {display:flex; width:800px; height:200px; margin:40px auto 0; border-radius:20px; color:#333; align-items:center; justify-content:center; flex-direction:column; background-color:#f4f4f4;}
+#random-number .txt {width:100%; text-align:center; line-height:1.6;}
+#random-number .result {display:none; margin-top:20px;}
+
+/* 시작 버튼 */
+#random-btn {display:block; width:160px; height:50px; margin:40px auto 0; color:#fff; font-size:16px; font-weight:700; border-radius:8px; background-color:#fa5a5a; box-shadow:0px 4px 0px #E04342;}
+#random-btn:active {position:relative; top:4px; box-shadow:0 0 #ff4c4b; background-color:#ff4c4b;}
