@@ -1,0 +1,9 @@
+# Node.js dependencies
+node_modules/
+
+# 기타 무시할 파일들 (필요에 따라 추가)
+.env
+.DS_Store
+
+# Next.js build output
+.next/
